@@ -25,7 +25,7 @@ public class Main {
         }
         double a = (int)Math.sqrt(liczba);
         while (liczba > 0) {
-            if (a%1==0){
+            if (a*a<=liczba){
                 liczba -= a*a;
                 lista.add(a);
             }else
